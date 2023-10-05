@@ -8,10 +8,10 @@ export const HeroSection = () => {
     <HeroContent>
         <h1>Sravani Vundavalli</h1>
         <h3>{"{Front-End Web Developer}"}</h3>
-        <p> HTML . CSS . JavaScript . React</p>
+        <p> HTML . CSS . JavaScript . React . MUI</p>
         <div>
             <CTAButton href="#projects"> Projects</CTAButton>
-            <CTAButton href="#Contact" primary margin = "0 0 0 20px">
+            <CTAButton href="#contact" primary margin = "0 0 0 20px">
                 Contact
              </CTAButton>
         </div>
@@ -20,13 +20,13 @@ export const HeroSection = () => {
     <FaArrowDown/>
     </StyledArrowDown>
     <HeroSocialIcons>
-        <SocialIcon href="#" target="_blank">
+        <SocialIcon href="https://github.com/sravanivundavalli" target="_blank">
             <FaGithub />
             </SocialIcon>
-        <SocialIcon href="#" target="_blank">
+        <SocialIcon href="https://www.linkedin.com/in/sravanivundavalli/" target="_blank">
             <FaLinkedin />
             </SocialIcon>
-        <SocialIcon href="#" target="_blank">
+        <SocialIcon href="https://www.facebook.com/sravani.vundavalli.13" target="_blank">
             <FaFacebook />
 
         </SocialIcon>

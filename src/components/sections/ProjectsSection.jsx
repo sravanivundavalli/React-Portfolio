@@ -15,7 +15,7 @@ export const ProjectsSection = () => {
   return (
     <>
      
-      <StyledProjectsSection id="Projects">
+      <StyledProjectsSection id="projects">
         <SectionHeading>
           <h1>Projects</h1>
           <p> These are my Projects</p>
@@ -38,13 +38,13 @@ export const ProjectsSection = () => {
                   </Tags>
                   <p>{project.paragraph}</p>
                   <div>
-                    <a href={project.codeLink} target="_blank ">
+                    <a href={project.codelink} target="_blank ">
                       <FaGithub />
                       <span>View </span>
                     </a>
-                    <a href={project.projectLink} target="_blank ">
+                    <a href={project.projectlink} target="_blank ">
                     
-                      <span>{project.projectLinkText}</span>
+                      <span>{project.projectlinkText}</span>
                       </a>
                   </div>
                 </ProjectDescription>

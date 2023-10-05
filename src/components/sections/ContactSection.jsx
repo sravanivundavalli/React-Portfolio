@@ -24,11 +24,11 @@ export const ContactSection = () => {
               ASAP!
             </p>
             <div>
-              <a href="sravani.vundavalli.se@gmail.com">
+              <a href="mailto:sravani.vundavalli.se@gmail.com">
                 <FaEnvelope />
                 <span> sravani.vundavalli.se@gmail.com </span>
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/sravanivundavalli/" target="_blank" rel="noreferrer">
                 <FaLinkedin />
                 <span> Linkedin </span>
               </a>

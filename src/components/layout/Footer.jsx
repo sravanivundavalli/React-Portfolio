@@ -25,9 +25,9 @@ export const Footer = () => {
       <StyledFooter>
         <FooterNav>
           <a href="#about">About</a>
-          <a href="#projects">projects</a>
-          <a href="#services">services</a>
-          <a href="#contact">contact</a>
+          <a href="#projects">Projects</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
         </FooterNav>
         <CodedWith>Coded With react And Styled Components</CodedWith>
         <div>

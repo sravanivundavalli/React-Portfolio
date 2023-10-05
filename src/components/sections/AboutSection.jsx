@@ -23,18 +23,15 @@ export const AboutSection = () =>{
             </StyleHeading>
             
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Consequuntur accusantium ab repellendus minima illo. 
-                Praesentium, reprehenderit explicabo ratione accusamus, 
-                ab distinctio minima sint iusto, 
-                dolorum ipsa repellat soluta nihil fugiat!
+                A passionate front-end web developer with a keen eye for design and a drive for crafting user-friendly, intuitive digital experiences.
+                I've honed my skills in HTML5, CSS3, JavaScript, and various modern frameworks and libraries. 
+                I'm dedicated to staying up-to-date with the latest trends and technologies in the ever-evolving world of web development.
             </p>
             <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Consequuntur accusantium ab repellendus minima illo. 
-                Praesentium, reprehenderit explicabo ratione accusamus, 
-                ab distinctio minima sint iusto, 
-                dolorum ipsa repellat soluta nihil fugiat!
+                I believe that a well-designed website is not only visually appealing but also highly functional. 
+                My goal is to create seamless, responsive, and cross-browser compatible interfaces that engage and delight users. 
+                Whether it's optimizing performance or ensuring accessibility, I'm committed to delivering top-notch results.
+                I'm not just a coder; I'm a problem solver. I thrive on challenges and enjoy collaborating with teams to bring ideas to life.
             </p>
             <CTAButton HREF = "#" target="_blank"> 
             Download Resume

@@ -41,7 +41,7 @@ export const NavBar = () => {
                     {navItem.isProfile ? (
                         <NavLink href = "#">
                          <Profile>
-                            <img src= "./images/chutki.jpg" alt="Sravani Vundavalli" ></img>
+                            <img src= "./images/Sravani.png" alt="Sravani Vundavalli" ></img>
                             <span>Sravani Vundavalli</span>
                         </Profile>   
                         </NavLink>
@@ -54,14 +54,14 @@ export const NavBar = () => {
                     {navItem.hasSocialIcons && (
                     <>
                     <SocialIcons>
-                        <NavLink href="#github" target="_blank">
+                        <NavLink href="https://github.com/sravanivundavalli" target="_blank">
                         <FaGithub />
                       </NavLink>
-                     <NavLink href="#linkedin"
+                     <NavLink href="https://www.linkedin.com/in/sravanivundavalli/"
                         target="_blank">
                         <FaLinkedin />
                      </NavLink>   
-                      <NavLink href="#facebook"
+                      <NavLink href="https://www.facebook.com/sravani.vundavalli.13"
                         target="_blank">
                         <FaFacebook />
                        </NavLink>
@@ -69,7 +69,7 @@ export const NavBar = () => {
                         </>
                         )}
                         {navItem.hasCTA && (
-                  <CTAButton href="mailto:sravani.se.vundavalli@gmail.com">
+                  <CTAButton href="mailto:sravani.vundavalli.se@gmail.com">
                     Email Me
                   </CTAButton>
                 )}
