@@ -30,11 +30,11 @@ const ContactForm = () => {
     <StyledContactForm>
       <form ref={form} onSubmit={sendEmail}>
         <label for="user_name">Name</label>
-        <input type="text" name="user_name" id="user_name" />
+        <input type="text" name="user_name" id="user_name" required />
         <label for="user_email">Email</label>
-        <input type="email" name="user_email" id="user_email" />
+        <input type="email" name="user_email" id="user_email" required />
         <label for="message">Message</label>
-        <textarea name="message" id="message" />
+        <textarea name="message" id="message" required />
         <input type="submit" value="Send" />
       </form>
     </StyledContactForm>
