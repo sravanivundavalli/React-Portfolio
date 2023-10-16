@@ -1,15 +1,15 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const StyledProjectsSection = styled.section`
-min-height: 90vh;
-padding: 10rem 0 5rem 0;
-width: 100%;  
-`
+  min-height: 90vh;
+  padding: 10rem 0 5rem 0;
+  width: 100%;
+`;
 
 export const SingleProject = styled.div`
-    display: flex;
-    align-items: center;
-    &:nth-child(even) {
+  display: flex;
+  align-items: center;
+  &:nth-child(even) {
     flex-direction: row-reverse;
     margin: 10rem 0;
 
@@ -115,54 +115,53 @@ export const SlantedCard = styled.div`
 `;
 
 export const ProjectDescription = styled.div`
-    flex: 1;
+  flex: 1;
 
-h1 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  background: linear-gradient(
-    to right,
-    ${({ theme }) => theme.colors.orange} 0%,
-    ${({ theme }) => theme.colors.purple} 100%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-p {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.4rem;
-  text-align: justify;
-}
-
-@media (max-width: ${({ theme }) => theme.mobile}) {
-  p {
-    font-size: 1.2rem;
-    hyphens: auto;
-    -webkit-hyphens: auto;
-    word-spacing: -0.05em;
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    background: linear-gradient(
+      to right,
+      ${({ theme }) => theme.colors.orange} 0%,
+      ${({ theme }) => theme.colors.purple} 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
-}
 
-div {
-  display: flex;
-  align-items: center;
+  p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4rem;
+    text-align: justify;
+  }
 
-  a {
-    //cursor: pointer;
-    display: flex;
-    align-items: center;
-    margin: 2rem 2rem 2rem 0;
-    font-size: 1.2rem;
-
-    svg {
-      margin-right: 0.5rem;
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    p {
+      font-size: 1.2rem;
+      hyphens: auto;
+      -webkit-hyphens: auto;
+      word-spacing: -0.05em;
     }
   }
-}
-`;
 
+  div {
+    display: flex;
+    align-items: center;
+
+    a {
+      //cursor: pointer;
+      display: flex;
+      align-items: center;
+      margin: 2rem 2rem 2rem 0;
+      font-size: 1.2rem;
+
+      svg {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+`;
 
 export const Tags = styled.div`
   display: flex;

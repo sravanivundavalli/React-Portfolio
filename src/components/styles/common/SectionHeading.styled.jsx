@@ -1,8 +1,8 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const SectionHeading = styled.div`
-    text-align: center;
-    margin-bottom: 7rem;
+  text-align: center;
+  margin-bottom: 7rem;
 
   h1 {
     text-transform: uppercase;

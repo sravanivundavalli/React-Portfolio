@@ -10,19 +10,19 @@ export const GlobalStyles = createGlobalStyle`
 html{
     font-family: "Share Tech Mono", monospace;
     scroll-behavior: smooth;
-    color: ${({theme}) => theme.colors.white};
-    background: ${({theme}) => theme.colors.navyBlue};
+    color: ${({ theme }) => theme.colors.white};
+    background: ${({ theme }) => theme.colors.navyBlue};
     font-size: 12px;
     min-height: 200vh;
 }
 
 a{
     text-decoration: none;
-    color: ${({theme}) => theme.colors.green};
+    color: ${({ theme }) => theme.colors.green};
     transition: all 650ms ease-in-out;
 
     &:hover{
-        color: ${({theme}) => theme.colors.orange};
+        color: ${({ theme }) => theme.colors.orange};
     }
 }
 ul{
@@ -31,8 +31,8 @@ ul{
 hr{
     background: linear-gradient(
         to right,
-        ${({theme}) => theme.colors.orange} 0%,
-        ${({theme}) => theme.colors.purple} 100%
+        ${({ theme }) => theme.colors.orange} 0%,
+        ${({ theme }) => theme.colors.purple} 100%
     );
     border: 0px;
     height: 1px;

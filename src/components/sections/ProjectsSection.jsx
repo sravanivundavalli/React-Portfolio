@@ -3,18 +3,17 @@ import { FaGithub } from "react-icons/fa";
 import { Projects } from "../../data/Projects";
 import { SectionHeading } from "../styles/common/SectionHeading.styled";
 import {
-    ProjectDescription,
+  ProjectDescription,
   ProjectImageContainer,
   SingleProject,
   SlantedCard,
   StyledProjectsSection,
-  Tags
+  Tags,
 } from "../styles/sections/ProjectsSection.styled";
 
 export const ProjectsSection = () => {
   return (
     <>
-     
       <StyledProjectsSection id="projects">
         <SectionHeading>
           <h1>Projects</h1>
@@ -24,9 +23,12 @@ export const ProjectsSection = () => {
           {Projects &&
             Projects.map((project, index) => (
               <SingleProject key={index}>
-                <ProjectImageContainer href={project.projectlink} target="_blank" >
+                <ProjectImageContainer
+                  href={project.projectlink}
+                  target="_blank"
+                >
                   <img src={project.thumbnail} alt="{project.title}" />
-                  <SlantedCard/>
+                  <SlantedCard />
                 </ProjectImageContainer>
                 <ProjectDescription>
                   <h1>{project.title}</h1>
@@ -43,16 +45,15 @@ export const ProjectsSection = () => {
                       <span>View </span>
                     </a>
                     <a href={project.projectlink} target="_blank ">
-                    
                       <span>{project.projectlinkText}</span>
-                      </a>
+                    </a>
                   </div>
                 </ProjectDescription>
               </SingleProject>
             ))}
         </div>
       </StyledProjectsSection>
-      <hr/>
+      <hr />
     </>
   );
 };

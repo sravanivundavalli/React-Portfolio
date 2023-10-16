@@ -1,4 +1,4 @@
-import styled, {keyframes} from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 const rotate = keyframes`
   from {
@@ -36,76 +36,76 @@ const wave = keyframes`
   }
 `;
 
- export const StyledAboutSection = styled.section`
-    min-height:90vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10rem 0 5rem 0;
-    
-    @media (max-width: ${({ theme }) => theme.mobile}) {
+export const StyledAboutSection = styled.section`
+  min-height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10rem 0 5rem 0;
+
+  @media (max-width: ${({ theme }) => theme.mobile}) {
     flex-direction: column;
     align-items: flex-start;
   }
- `;
+`;
 
- export const ImageContainer = styled.div`
-    height: 13rem;
-    width: 13rem;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 2.5rem;
-    position: relative;
+export const ImageContainer = styled.div`
+  height: 13rem;
+  width: 13rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2.5rem;
+  position: relative;
 
-    @media (max-width: ${({ theme }) => theme.mobile}) {
+  @media (max-width: ${({ theme }) => theme.mobile}) {
     margin-bottom: 4rem;
   }
- `;
+`;
 
- export const StyledImage = styled.img`
-    height: 12rem;
-    width: 12rem;
-    border-radius: 50%;
-    position: absolute;
-    z-index: 4;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 100% 100%;
- `;
+export const StyledImage = styled.img`
+  height: 12rem;
+  width: 12rem;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 4;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+`;
 
 export const GradientCircle = styled.div`
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-    position: absolute;
-    z-index: 2;
-    animation: ${rotate} 5s linear infinite;
-    background: linear-gradient(
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  animation: ${rotate} 5s linear infinite;
+  background: linear-gradient(
     to right,
     ${({ theme }) => theme.colors.orange} 0%,
     ${({ theme }) => theme.colors.green} 50%,
     ${({ theme }) => theme.colors.purple} 100%
-    );
+  );
 `;
 
 export const DarkCircle = styled.div`
-    height: 12.5rem;
-    width: 12.5rem;
-    border-radius: 50%;
-    position: absolute;
-    z-index: 3;
-    background: ${({ theme }) => theme.colors.navyBlue};
+  height: 12.5rem;
+  width: 12.5rem;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 3;
+  background: ${({ theme }) => theme.colors.navyBlue};
 `;
 
- export const AboutContent = styled.div`
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0;
-     
-    p {
+export const AboutContent = styled.div`
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+
+  p {
     font-family: "Poppins", sans-serif;
     font-size: 1.4rem;
     text-align: justify;
@@ -120,12 +120,11 @@ export const DarkCircle = styled.div`
       word-spacing: -0.05em;
     }
   }
- `;
+`;
 
 export const StyleHeading = styled.div`
-    font-size: 3rem;
-    margin-bottom: 20px;
-   
+  font-size: 3rem;
+  margin-bottom: 20px;
 `;
 
 export const StyledEmoji = styled.span`

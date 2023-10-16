@@ -10,7 +10,6 @@ import ContactForm from "./ContactForm";
 export const ContactSection = () => {
   return (
     <>
-      
       <StyledContactSection id="contact">
         <SectionHeading>
           <h1>Contact</h1>
@@ -28,7 +27,11 @@ export const ContactSection = () => {
                 <FaEnvelope />
                 <span> sravani.vundavalli.se@gmail.com </span>
               </a>
-              <a href="https://www.linkedin.com/in/sravanivundavalli/" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.linkedin.com/in/sravanivundavalli/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaLinkedin />
                 <span> Linkedin </span>
               </a>
@@ -39,9 +42,8 @@ export const ContactSection = () => {
             <img src="./images/contact_us.svg" alt="contact" />
           </ImageWrapper>
         </DetailsWrapper>
-        
       </StyledContactSection>
-      <hr/>
+      <hr />
     </>
   );
 };

@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
-
 export const CTAButton = styled.a`
-background: ${({ primary, theme }) => 
-  primary ? theme.colors.green : "none"};
+  background: ${({ primary, theme }) =>
+    primary ? theme.colors.green : "none"};
   color: ${({ primary, theme }) =>
     primary ? theme.colors.white : theme.colors.green};
   padding: 10px 20px;

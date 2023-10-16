@@ -20,7 +20,7 @@ export const StyledContactForm = styled.div`
     width: 100%;
     font-size: 16px;
     input {
-      margin-top: 2rem;
+      /* margin-top: 2rem; */
       width: 100%;
       height: 35px;
       padding: 7px;
@@ -32,7 +32,7 @@ export const StyledContactForm = styled.div`
       }
     }
     textarea {
-      margin-top: 2rem;
+      /* margin-top: 2rem; */
       /* max-width: 100%;
       min-width: 100%; */
       width: 100%;
@@ -80,5 +80,5 @@ export const StyledContactForm = styled.div`
       vertical-align: middle; */
       /* padding: 0px; */
     }
-  }`;
-  
+  }
+`;

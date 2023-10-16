@@ -9,7 +9,7 @@ const useScrollDirection = ({
   off,
 } = {}) => {
   const [scrollDir, setScrollDir] = useState(initialDirection);
-  
+
   useEffect(() => {
     const threshold = thresholdPixels || 0;
     let lastScrollY = window.pageYOffset;

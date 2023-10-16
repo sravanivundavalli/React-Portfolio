@@ -1,4 +1,4 @@
-import styled, {keyframes} from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 const typing = keyframes`
   0% {
@@ -40,20 +40,21 @@ const bounce = keyframes`
 `;
 
 export const StyledHeroSection = styled.section`
-    width: 100%;
-    height: 90vh;
-    background: linear-gradient(
-    135deg,
-    rgba(0, 64, 77, 0.9) 0%,
-    rgba(2, 12, 27, 0.8) 100%), url();
-    background-size: contain;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    //margin-top:40px;
-
+  width: 100%;
+  height: 90vh;
+  background: linear-gradient(
+      135deg,
+      rgba(0, 64, 77, 0.9) 0%,
+      rgba(2, 12, 27, 0.8) 100%
+    ),
+    url();
+  background-size: contain;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  //margin-top:40px;
 `;
 
 export const HeroContent = styled.div`
@@ -70,7 +71,9 @@ export const HeroContent = styled.div`
     white-space: nowrap;
     width: 38ch;
     margin: auto;
-    animation: ${typing} 5s steps(36), ${blink} 1s ease-in-out 6s infinite;
+    animation:
+      ${typing} 5s steps(36),
+      ${blink} 1s ease-in-out 6s infinite;
     border-right: 4px solid ${({ theme }) => theme.colors.primary};
   }
 
@@ -95,7 +98,6 @@ export const HeroContent = styled.div`
 
   div {
     margin: 2.5rem 0;
-   
   }
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
@@ -114,7 +116,7 @@ export const HeroContent = styled.div`
 `;
 
 export const StyledArrowDown = styled.a`
-position: absolute;
+  position: absolute;
   bottom: 50px;
 
   svg {
@@ -155,9 +157,9 @@ export const SocialIcon = styled.a`
   }
 
   &:hover {
-    svg{
-        animation: ${rotate} 1.5s linear infinite;
-        color: ${({theme}) => theme.colors.orange};
+    svg {
+      animation: ${rotate} 1.5s linear infinite;
+      color: ${({ theme }) => theme.colors.orange};
     }
   }
 
