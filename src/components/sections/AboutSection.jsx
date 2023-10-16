@@ -33,7 +33,7 @@ export const AboutSection = () =>{
                 Whether it's optimizing performance or ensuring accessibility, I'm committed to delivering top-notch results.
                 I'm not just a coder; I'm a problem solver. I thrive on challenges and enjoy collaborating with teams to bring ideas to life.
             </p>
-            <CTAButton HREF = "#" target="_blank"> 
+            <CTAButton href="./resume/Sravani_Vundavalli_CV.pdf" download="Sravani_Vundavalli_CV.pdf"> 
             Download Resume
             </CTAButton>
         </AboutContent>
