@@ -14,7 +14,7 @@ export const HeroSection = () => {
       <HeroContent>
         <h1>Sravani Vundavalli</h1>
         <h3>{"{Front-End Web Developer}"}</h3>
-        <p> HTML . CSS . JavaScript . React . MUI</p>
+        <p> HTML . CSS . JavaScript . ReactJS . MUI</p>
         <div>
           <CTAButton href="#projects"> Projects</CTAButton>
           <CTAButton href="#contact" primary margin="0 0 0 20px">
