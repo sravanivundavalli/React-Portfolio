@@ -42,8 +42,8 @@ export const AboutSection = () => {
             enjoy collaborating with teams to bring ideas to life.
           </p>
           <CTAButton
-            href="./resume/Sravani-Vundavalli-Resume.pdf"
-            download="Sravani_Vundavalli_CV.pdf"
+            href="./resume/Sravani-Vundavalli-CV.pdf"
+            download="Sravani-Vundavalli-CV.pdf"
           >
             Download Resume
           </CTAButton>
