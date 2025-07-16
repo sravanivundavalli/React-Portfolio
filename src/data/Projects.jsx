@@ -20,6 +20,16 @@ export const Projects = [
   },
 
   {
+    thumbnail: "./images/Weather_App.png",
+    title: "Weather App",
+    tags: ["HTML, CSS, JavaScript, React, REST API"],
+    paragraph: "The Weather App project provides real-time weather information for any location worldwide. Users can search for a city and receive current weather conditions, including temperature, humidity, wind speed, and a brief description of the weather. The app utilizes a REST API to fetch data, ensuring accurate and up-to-date information. With its clean design and responsive layout, the Weather App offers an intuitive user experience.",
+    codelink: "https://github.com/sravanivundavalli/Weather-App",
+    projectlink: "https://weather.vundavalli.me",
+    projectlinkText: "View Project",
+  },
+
+  {
     thumbnail: "./images/youtube_clone.PNG",
     title: "YouTube Clone 2.0",
     tags: ["CSS, Javascript, React, Mui "],
